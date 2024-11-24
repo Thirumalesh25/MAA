@@ -1,0 +1,44 @@
+header {
+            background-color: green; /* Green background for header */
+            color: white; /* White text color */
+            text-align: center; /* Center-align text */
+            padding: 20px; /* Add some padding around the header */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: blue; /* Dark background color for the navigation bar */
+            padding: 10px; /* Padding around the navigation links */
+        }
+
+        nav a {
+            color: white; /* White color for the links */
+            text-decoration: none; /* Remove underline from links */
+            padding: 14px 20px; /* Add space around the text in the links */
+            font-size: 18px; /* Set font size */
+        }
+
+        nav a:hover {
+            background-color: white; /* Light gray background when hovering */
+            color: red; /* Change text color to black when hovering */
+        }
+
+        .container {
+            text-align: center; /* Center the content */
+            padding: 150px; /* Padding around the content inside the container */
+            background-image: url('backg.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Ensure the image covers the entire container */
+            background-position: center; /* Position the image in the center */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+        }
+
+        footer {
+            background-color: blue; /* Dark background for the footer */
+            color: white; /* White text color for the footer */
+            text-align: center; /* Center-align text in the footer */
+            padding: 10px; /* Add padding around footer text */
+            position: fixed; /* Fix the footer at the bottom */
+            width: 100%; /* Ensure footer spans full width */
+            bottom: 0; /* Position the footer at the bottom of the page */
+        }

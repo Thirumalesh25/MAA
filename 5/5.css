@@ -1,0 +1,48 @@
+.h{
+    display: flex;
+    background-color: aqua;
+}
+h1{
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    background-color: blue;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: red;
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container h1{
+    padding-top: 200px;
+}
+body{
+    margin: 0;
+}
+.v {
+    display: flex;
+    justify-content: space-around;
+}
+iframe {
+    width: 100%;
+    height: auto;
+}
+.content {
+    text-align: center;
+}
